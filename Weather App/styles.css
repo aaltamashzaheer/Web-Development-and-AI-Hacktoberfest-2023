@@ -1,0 +1,43 @@
+#title_div{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bel_set{
+    display: flex;
+    justify-content: center;
+}
+#details_of_weather{
+    text-align: center;
+    /*setting modern font*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#details_2{
+    text-align: start;
+    width: 323px;
+}
+#search_btn{
+    margin-left: 10px;
+    width: 100px;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(40, 68, 228);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#search_btn:hover{
+    background-color: rgba(0, 38, 255, 0.87);
+    cursor: pointer;
+}
+/*location Input area editing*/
+#loc_inp{
+    width: 200px;
+    height: 32px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid;
+}
